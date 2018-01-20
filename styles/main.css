@@ -32,6 +32,7 @@ h2 {
 ul {
     font-size: 1.0rem auto;
     color: black;
+    background-color: beige;
 }
 
 header, main, footer {
