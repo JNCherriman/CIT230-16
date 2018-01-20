@@ -29,6 +29,11 @@ h2 {
     border-bottom: 1px solid #bbb;
 }
 
+ul {
+    font-size: 1.0rem auto;
+    color: black;
+}
+
 header, main, footer {
     margin: 1.25rem auto;
     padding: .5rem;
