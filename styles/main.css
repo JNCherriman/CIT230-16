@@ -12,31 +12,31 @@ body {
 }
 
 nav {
-    font-size: 1.0rem auto;
+    font-size: 1.0rem;
     color: white;
     text-align: center;
 }
 
 h1 {
-    font-size: 2.5rem auto;
+    font-size: 2.5rem;
     color: currentColor;
 }
 
 h2 {
-    font-size: 1.5rem auto;
+    font-size: 1.5rem;
     color: darkgray;
     text-align: center;
     border-bottom: 1px solid #bbb;
 }
 
 ul {
-    font-size: 1.0rem auto;
+    font-size: 1.0rem;
     color: black;
     background-color: beige;
 }
 
 header, main, footer {
-    margin: 1.25rem auto;
+    margin: 1.25rem;
     padding: .5rem;
     max-width: 800px;
 }
@@ -48,7 +48,7 @@ header, footer, footer a {
 }
 
 header img {
-    width: 250;
+    width: 250px;
     height: auto;
     float: right;
 }
