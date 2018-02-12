@@ -3,37 +3,103 @@
 * { box-sizing: border-box;}  /* This wildcard applies to all elements ensuring a box layout model */
 
 body {
-  font-size: 16px;
-  /* Declare the base font-family - from google font api or other */
+    font-size: .75em;
+    background-color: #b7d7e8;
+    /* Declare the base font-family - from google font api or other */
+    font-family: arial;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
 }
 
-header, nav, main, footer { /* the comma means apply the following CSS declarations to all of the listed elements */
-  /* Declare the maximum width and other main element rules to limit the stretch on wide views */
+header, nav, main, footer {
+    /* the comma means apply the following CSS declarations to all of the listed elements */
+    /* Declare the maximum width and other main element rules to limit the stretch on wide views */
+
 }
 
-header {}
-header h1 {}
-header img {}
-header .subheading {}
+header {
+    background-color: #87bdd8;
+    font-family: arial;
+    font-size: 1.0em;
+}
+header h1 {
+    font-family: arial;
+    color: #87bdd8a;
+    /*margin-bottom: 22px;*/
+}
+header img {
+    float: left;
+    margin-right: 10px;
+    width: auto;
+    height: 100%;
+}
+header .subheading {
+    /*clear:left;*/
+    padding-left: 10px;
+    font-family: arial;
+    font-size: 1em;
+}
 
-nav {}
+nav {
+    clear:both;
+}
 nav button {}
-nav ul {}
-nav ul li {}
-nav ul li a {}
-nav ul li.active a {}
-nav ul li a:hover {}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-color: #b7d7e8;
+    border: 1px solid #555;
+}
+nav ul li {
+    text-align: center;
+    border-bottom: 1px solid #555;
+}
+nav ul li:last-child{
+    border-bottom: none;
+}
+nav ul li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+nav ul li.active a {
+    background-color: #87bdd8;
+    color: white;
+}
+/* Change the link color on hover */
+nav ul li a:hover {
+    background-color: #cfe0e8;
+    color: white;
+}
 
-main {}
-main h2 {}
+main {
+    font-family: calibri;
+}
+main h2 {
+    font-family: arial;
+    text-align: center;
+    color: #87bdd8a;
+    font-size: 25px;
+}
 main figure { margin: 0 0 .2rem 2%; width:96%; }
 main figure img { width: 100%; }
 
 section {}
 
+section.forecast { display: none; }  /* Hid the 10-day forecast with the mobile view */
+
+section img {
+    width: 100%;
+}
+
 article p.town-article img {  /* This structure refers to img elements that are the posterity of paragraph elements within artcle elements */
-  width: ???; /* fill the page in the small/phone view */
-  margin: ???;
+  width: 100%; /* fill the page in the small/phone view */
+  margin: 10px;
+    float: right;
 }
 
 footer {}
