@@ -26,7 +26,6 @@ header {
 header h1 {
     font-family: arial;
     color: #87bdd8a;
-    /*margin-bottom: 22px;*/
 }
 header img {
     float: left;
@@ -35,10 +34,9 @@ header img {
     height: 100%;
 }
 header .subheading {
-    /*clear:left;*/
     padding-left: 10px;
     font-family: arial;
-    font-size: 1em;
+    /*font-size: 1em;*/
 }
 
 nav {
