@@ -7,8 +7,8 @@ body {
     background-color: #b7d7e8;
     /* Declare the base font-family - from google font api or other */
     font-family: arial;
-    align-items: center;
-    justify-content: center;
+    width: 100%;
+    margin: auto;
     padding: 10px;
 }
 

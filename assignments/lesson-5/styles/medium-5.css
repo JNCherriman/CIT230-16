@@ -3,10 +3,12 @@
 
     body {
         font-size: 1em;
+        width: 80%;
     }
 
     header, nav, main, footer {
         max-width: 800px;
+        margin: auto;
     }
 
     header {
