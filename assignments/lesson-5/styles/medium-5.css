@@ -1,4 +1,4 @@
-@media only screen and (min-width: 37.5em) {
+@media only screen and (min-width: 38.9em) {
     /* Only CSS rules that need to be changed to meet the layout needs from small to medium go in here */
 
     body {
@@ -7,7 +7,7 @@
     }
 
     header, nav, main, footer {
-        max-width: 800px;
+        max-width: 1500px;
         margin: auto;
     }
 
