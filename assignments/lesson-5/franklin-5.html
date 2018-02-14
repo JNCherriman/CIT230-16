@@ -7,7 +7,7 @@
   <meta name="author" content="Jeremy Cherriman">
   <meta name="description" content="Local weather history, forecasts, and meaningful meteorological context for the city of Franklin and surrounding Tri-city area.">
   <!-- external style references in the proper cascading order -->
-  <link href="https://fonts.googleapis.com/css?family=#" rel="stylesheet">  <!-- Google API font reference -->
+    <link href="https://fonts.googleapis.com/css?family=Merriweather+Sans|Open+Sans" rel="stylesheet">  <!-- Google API font reference -->
   <link href="../../styles/normalize.css" rel="stylesheet"> <!-- normalize useragent/browser defaults -->
   <link href="styles/main-5.css" rel="stylesheet">    <!-- default styles - small/phone views -->
   <link href="styles/medium-5.css" rel="stylesheet">  <!-- medium/tablet views -->
@@ -17,8 +17,10 @@
 
   <header>
     <img src="images/cloudsun.png" alt="The site logo">
-    <h1>Chicken Little's Weather</h1>
-    <div class="subheading">What kind of weather is falling today?</div>
+    <section class="headertextbox">
+        <h1>Chicken Little's Weather</h1>
+        <div class="subheading">What kind of weather is falling today?</div>
+    </section>
   </header>
 
   <!-- site navigation use placeholder references -->
@@ -37,7 +39,7 @@
   <main>
     <h2>The City of Franklin</h2>
     <figure>
-      <img>
+        <img src="images/franklin.png" alt="The current view from our window.">
     </figure>
     <section>
       <h3>Weather Summary</h3>
@@ -49,7 +51,7 @@
         Sunny
           <br>
         <picture>
-            <img src="images/franklin.png" alt="The current view from our window." width="" height="">
+            <img src="images/franklin.png" alt="The current view from our window.">
         </picture>
       </div>
       <div class="conditions">
@@ -58,7 +60,15 @@
       </div>
     </section>
 
-    <section class="forecast">
+      <article>
+          <h3>Franklin Breaks Record</h3>
+          <p class="town-article">
+              <img src="images/#" alt="" width="" height="">
+              short article content placeholder
+          </p>
+      </article>
+
+      <section class="forecast">
       <h3>10 Day Forecast</h3>
       <table>
         <thead>
@@ -91,14 +101,6 @@
         </tbody>
       </table>
     </section>
-
-    <article>
-      <h3>Franklin Breaks Record</h3>
-      <p class="town-article">
-        <img src="images/#" alt="" width="" height="">
-        short article content placeholder
-      </p>
-        </article>
 
   </main>
 
