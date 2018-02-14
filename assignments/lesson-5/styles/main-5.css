@@ -7,7 +7,7 @@ body {
     font-size-adjust: auto;
     background-color: #b7d7e8;
     /* Declare the base font-family - from google font api or other */
-    font-family: arial;
+    font-family: 'Open Sans', sans-serif;
     width: 100%;
     margin: auto;
     padding: 10px;
@@ -24,23 +24,30 @@ header {
     background-color: #87bdd8;
     font-family: arial;
     text-align: center;
-    height: 130px;
+    /*display: inline;*/
 }
+
+header .headertextbox {
+    height: 104px;
+    padding-left: 10px;
+}
+
 header h1 {
     font-family: arial;
     color: #87bdd8a;
+    padding-top: 10px;
+    margin-bottom: 10px;
 }
 header img {
     float: left;
+    /*display: inline-block;*/
     margin-right: 10px;
     width: 30%;
     max-width: 158px;
     height: auto;
 }
 header .subheading {
-    padding-left: 10px;
     font-family: arial;
-    /*font-size: 1em;*/
 }
 
 nav {
@@ -80,7 +87,7 @@ nav ul li a:hover {
 }
 
 main {
-    font-family: calibri;
+    font-family: 'Merriweather Sans', sans-serif;
 }
 main h2 {
     font-family: arial;
@@ -91,7 +98,9 @@ main h2 {
 main figure { margin: 0 0 .2rem 2%; width:96%; }
 main figure img { width: 100%; }
 
-section {}
+section {
+    padding-right: 15px;
+}
 
 section.forecast { display: none; }  /* Hid the 10-day forecast with the mobile view */
 
