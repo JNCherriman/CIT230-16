@@ -34,7 +34,7 @@ header .headertextbox {
 
 header h1 {
     font-family: arial;
-    color: #87bdd8;
+    color: #000;
     padding-top: 10px;
     margin-bottom: 10px;
 }
@@ -92,7 +92,7 @@ main {
 main h2 {
     font-family: arial;
     text-align: center;
-    color: #87bdd8;
+    color: #000;
     font-size: 25px;
 }
 main figure { margin: 0 0 .2rem 2%; width:96%; }
