@@ -5,7 +5,7 @@
 body {
     font-size: 1em;
     font-size-adjust: auto;
-    background-color: #b7d7e8;
+    background-color: #white;
     /* Declare the base font-family - from google font api or other */
     font-family: 'Open Sans', sans-serif;
     width: 100%;
@@ -28,7 +28,7 @@ header {
 }
 
 header .headertextbox {
-    min-height: 104px;
+    min-height: 150px;
     padding-left: 10px;
 }
 
@@ -43,7 +43,7 @@ header img {
     /*display: inline-block;*/
     margin-right: 10px;
     width: 30%;
-    max-width: 158px;
+    max-width: 150px;
     height: auto;
 }
 header .subheading {
