@@ -5,7 +5,6 @@
 body {
     font-size: 1em;
     font-size-adjust: auto;
-    background-color: #white;
     /* Declare the base font-family - from google font api or other */
     font-family: 'Open Sans', sans-serif;
     width: 100%;
@@ -114,7 +113,10 @@ article p.town-article img {  /* This structure refers to img elements that are 
     float: right;
 }
 
-footer {}
+footer {
+    background-color: #cfe0e8;
+    padding: inherit;
+}
 footer aside {}
 footer>p {} /* This structure refers to p elements that are direct children of the footer element */
 

@@ -3,7 +3,7 @@
 
     body {
         font-size: 1em;
-        width: 80%;
+        ?8width: 80%;*/
     }
 
     header, nav, main, footer {
@@ -17,12 +17,20 @@
 
     nav button { display:none; }  /* hamburger button does not need to be shown */
 
+    nav ul.hide {display: block;}
+
     nav ul {
         border: none;
+        margin-left: 2%;
     }
     nav ul li {
         display: inline-block;
         border-bottom: none;
+    }
+
+    nav ul li a {
+        padding: .8rem 1rem;
+        border: none;
     }
 
     main h2 {
