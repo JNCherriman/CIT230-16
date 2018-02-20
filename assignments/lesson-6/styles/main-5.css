@@ -104,7 +104,7 @@ main h2 {
     font-size: 25px;
 }
 main figure { margin: 0 0 .2rem 2%; width:96%; }
-main figure img { width: 100%; }
+main figure img {100%}
 main figure.RWD {
     width 50%;
 }
