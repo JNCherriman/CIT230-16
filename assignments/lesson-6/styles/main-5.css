@@ -105,6 +105,16 @@ main h2 {
 }
 main figure { margin: 0 0 .2rem 2%; width:96%; }
 main figure img { width: 100%; }
+main figure.RWD {
+    width 50%;
+}
+main figure.RWD img {
+    width: 100%;
+}
+main figure.RWD figcaption {
+    text-align: center;
+    font-size: .75rem;
+}
 
 section {
     padding-right: 15px;

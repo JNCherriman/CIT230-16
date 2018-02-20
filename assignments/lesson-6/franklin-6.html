@@ -44,8 +44,12 @@
 
   <main>
     <h2>The City of Franklin</h2>
-    <figure>
-        <img src="images/pexels-photo-327256.jpeg" alt="Franklin area - snow.">
+    <figure class="RWD">
+        <img src="images/franklin-original.jpeg" sizes="90vw"
+             srcset="images/franklin-px50.jpg 560w,
+                     images/franklin-px75.jpg 900w,
+                     images/franklin-px100.jpg 1200w">
+        <figcaption>A beautiful day in the neighborhood (Franklin area)</figcaption>
     </figure>
     <section>
       <h3>Weather Summary</h3>
@@ -57,7 +61,7 @@
         Sunny
           <br>
         <picture>
-            <img src="images/pexels-photo-186980.jpeg" alt="The current view from our window.">
+            <img src="images/pexels-photo-327256.jpeg" alt="The current view from our window.">
         </picture>
       </div>
       <div class="conditions">
@@ -70,7 +74,7 @@
           <h3>Franklin Breaks Record</h3>
           <p class="town-article">
               <img src="images/pexels-photo-108941.jpeg" alt="Franklin multiple rainbows.">
-              short article content placeholder
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur consequat eget turpis non interdum. Etiam porttitor eleifend sapien, lacinia maximus leo. Etiam in mi et nisl tempor dapibus vel non risus. Morbi eu erat ac sapien sollicitudin condimentum. Mauris malesuada urna vel dolor vulputate, nec aliquet erat tempus. Donec bibendum metus id augue maximus rhoncus. Curabitur fringilla vestibulum sapien finibus viverra. Donec vitae tempus augue.
           </p>
       </article>
 
@@ -114,11 +118,12 @@
     <aside>
       Contact information placeholder
     </aside>
-    <p class="footer-bar">&copy;2017 All Rights Reserved | Site Title | <span id="currentdate">Current Date Placeholder</span></p>
+      <p class="footer-bar">&copy;2018 All Rights Reserved | Site Title | <span id="currentdate"><script src="scripts/currentdate.js"></script></span>
+      </p>
   </footer>
 
   <script src="scripts/hamburger.js"></script>
-  <script src="scripts/currentdate.js"></script>
+
 
 </body>
 </html>
