@@ -4,7 +4,6 @@
 
 body {
     font-size: 1em;
-    font-size-adjust: auto;
     /* Declare the base font-family - from google font api or other */
     font-family: 'Open Sans', sans-serif;
     width: 100%;
@@ -22,36 +21,30 @@ header, nav, main, footer {
 header {
     background-color: #87bdd8;
     font-family: arial;
-    dispaly grid;
-    grid-template-columns: 200px, 1fr;
     text-align: center;
+    display: flex;
+}
+
+header section {
 }
 
 header .headertextbox {
-    min-height: 150px;
-    padding-left: 10px;
+    flex: 1;
 }
 
 header h1 {
-    font-family: arial;
     color: #000;
-    padding-top: 10px;
-    margin-bottom: 10px;
 }
+
 header img {
-    float: left;
-    /*display: inline-block;*/
-    margin-right: 10px;
-    width: 30%;
     max-width: 150px;
     height: auto;
 }
 header .subheading {
-    font-family: arial;
+    padding-bottom: 10px;
 }
 
 nav {
-    clear:both;
     font-size: .7em;
     background-color: #b7d7e8;
 }
