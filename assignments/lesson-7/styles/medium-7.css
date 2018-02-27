@@ -41,6 +41,9 @@
     main {
         display: flex;
         flex-flow: column;
+        }
+
+    .box {
         flex: 0 0 50%;
     }
 
@@ -48,16 +51,12 @@
         padding-bottom: 30px;
     }
 
-    main section div {
-        display: flex;
-        flex-direction: column;
+    main section p {
+        margin: 0 20px;
     }
 
-    main section p {
-        display: flex;
-        flex: 1fr 1fr 1fr;
-        align-content: center;
-        margin: 0 20px;
+    .container {
+        grid-template-columns: 1fr 1fr;
     }
 
     .gallery {
