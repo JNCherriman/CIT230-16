@@ -35,11 +35,30 @@
 
     main h2 {
         font-size: 2em;
+        flex: none;
     }
 
     main section {
-        float: left;
-        width: 50%;
+        display: flex;
+        flex: 0 0 50%;
+        padding-bottom: 30px;
+    }
+
+    main section.gallery {
+        grid-template-columns: 2fr;
+    }
+
+
+    main section div {
+        display: flex;
+        flex-direction: column;
+    }
+
+    main section p {
+        display: flex;
+        flex: 1fr 1fr 1fr;
+        align-content: center;
+        margin: 0 20px;
     }
 
 

@@ -6,6 +6,21 @@
 
     nav ul li a { padding: .6rem 1 rem;}
 
-  article p.town-article img { width: 50%; }
+    main {
+        flex: none;
+    }
+
+    main section {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    main section.gallery {
+        grid-template-columns: 3fr;
+    }
+
+
+
+    article p.town-article img { width: 50%; }
 
 }

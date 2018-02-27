@@ -7,7 +7,6 @@ body {
     /* Declare the base font-family - from google font api or other */
     font-family: 'Open Sans', sans-serif;
     width: 100%;
-    margin: auto;
     padding: 10px;
 }
 
@@ -99,15 +98,19 @@ main h2 {
 }
 main figure { margin: 0 0 .2rem 2%; width:96%; }
 main figure img {100%}
-main figure.RWD {
-    width 50%;
-}
-main figure.RWD img {
-    width: 100%;
-}
 main figure.RWD figcaption {
     text-align: center;
     font-size: .75rem;
+}
+
+main section.gallery {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+main section.gallery figure {
+    grid-gap: 10px;
+    padding-bottom: 15px;
 }
 
 section {
@@ -123,13 +126,12 @@ section img {
     width: 100%;
 }
 
-article {display:grid;}
+article {}
 
 article p.town-article img {  /* This structure refers to img elements that are the posterity of paragraph elements within artcle elements */
   width: 100%; /* fill the page in the small/phone view */
   margin: 10px;
   padding-left: 10px;
-    float: right;
 }
 
 footer {
