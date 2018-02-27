@@ -6,7 +6,6 @@ body {
     font-size: 1em;
     /* Declare the base font-family - from google font api or other */
     font-family: 'Open Sans', sans-serif;
-    width: 100%;
     padding: 10px;
 }
 
@@ -14,12 +13,12 @@ header, nav, main, footer {
     /* the comma means apply the following CSS declarations to all of the listed elements */
     /* Declare the maximum width and other main element rules to limit the stretch on wide views */
     max-width: 800px;
-    margin: 0px auto;
 }
 
 header {
     background-color: #87bdd8;
     font-family: arial;
+    font-size: .8rem;
     text-align: center;
     display: flex;
 }
@@ -96,22 +95,6 @@ main h2 {
     color: #000;
     font-size: 25px;
 }
-main figure { margin: 0 0 .2rem 2%; width:96%; }
-main figure img {100%}
-main figure.RWD figcaption {
-    text-align: center;
-    font-size: .75rem;
-}
-
-main section.gallery {
-    display: grid;
-    grid-template-columns: 1fr;
-}
-
-main section.gallery figure {
-    grid-gap: 10px;
-    padding-bottom: 15px;
-}
 
 section {
     padding-right: 15px;
@@ -125,6 +108,30 @@ section.forecast {
 section img {
     width: 100%;
 }
+
+.gallery {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 10px;
+}
+
+.gallery figure {
+    padding-bottom: 40px;
+}
+
+.gallery figure img:hover {box-shadow: 5px 5px 10px gray;}
+
+main section.gallery figure figcaption {
+    padding-top: 10px;
+}
+
+main figure { margin: 0 0 .2rem 2%; width:96%; }
+
+main figure.RWD figcaption {
+    text-align: center;
+    font-size: .75rem;
+}
+
 
 article {}
 

@@ -12,7 +12,7 @@
     }
 
     header {
-        font-size: 1.5em;
+        font-size: 1.3rem;
     }
 
     nav button { display:none; }  /* hamburger button does not need to be shown */
@@ -38,16 +38,15 @@
         flex: none;
     }
 
-    main section {
+    main {
         display: flex;
+        flex-flow: column;
         flex: 0 0 50%;
+    }
+
+    main section {
         padding-bottom: 30px;
     }
-
-    main section.gallery {
-        grid-template-columns: 2fr;
-    }
-
 
     main section div {
         display: flex;
@@ -61,13 +60,15 @@
         margin: 0 20px;
     }
 
+    .gallery {
+        grid-template-columns: 1fr 1fr;
+    }
+
 
     section.forecast { display:block; }  /* show the 10-day forecast with the medium view and up */
 
-    article p.town-article img { width: 62.666%; float:right; }  /* responsive images */
+    article p.town-article img { width: 62.666%; }  /* responsive images */
 
-    footer {
-        clear: both;
-    }
+    footer { }
 
 }
