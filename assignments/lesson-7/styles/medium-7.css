@@ -1,12 +1,15 @@
 @media only screen and (min-width: 38.9em) {
     /* Only CSS rules that need to be changed to meet the layout needs from small to medium go in here */
-
     body {
         font-size: 1em;
-        ?8width: 80%;*/
+        ?8width: 80%;
+        */
     }
 
-    header, nav, main, footer {
+    header,
+    nav,
+    main,
+    footer {
         max-width: 1500px;
         margin: auto;
     }
@@ -15,9 +18,13 @@
         font-size: 1.3rem;
     }
 
-    nav button { display:none; }  /* hamburger button does not need to be shown */
-
-    nav ul.hide {display: block;}
+    nav button {
+        display: none;
+    }
+    /* hamburger button does not need to be shown */
+    nav ul.hide {
+        display: block;
+    }
 
     nav ul {
         border: none;
@@ -41,7 +48,7 @@
     main {
         display: flex;
         flex-flow: column;
-        }
+    }
 
     .box {
         flex: 0 0 50%;
@@ -63,8 +70,12 @@
         grid-template-columns: 1fr 1fr;
     }
 
-    div.forecast { display:block; }  /* show the 10-day forecast with the medium view and up */
-
-    article p.town-article img { width: 62.666%; }  /* responsive images */
-
+    div.forecast {
+        display: block;
+    }
+    /* show the 10-day forecast with the medium view and up */
+    article p.town-article img {
+        width: 62.666%;
+    }
+    /* responsive images */
 }
