@@ -63,11 +63,8 @@
         grid-template-columns: 1fr 1fr;
     }
 
-
-    section.forecast { display:block; }  /* show the 10-day forecast with the medium view and up */
+    div.forecast { display:block; }  /* show the 10-day forecast with the medium view and up */
 
     article p.town-article img { width: 62.666%; }  /* responsive images */
-
-    footer { }
 
 }

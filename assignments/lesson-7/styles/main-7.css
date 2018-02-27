@@ -98,7 +98,7 @@ section {
     padding-right: 15px;
 }
 
-section.forecast {
+div.forecast {
     display: none;
     padding: 1rem;
 }  /* Hid the 10-day forecast with the mobile view */
@@ -156,6 +156,7 @@ article figure.town-article img {  /* This structure refers to img elements that
 footer {
     background-color: #cfe0e8;
     padding: inherit;
+    margin-top: 30px;
 }
 footer aside {}
 footer>p {} /* This structure refers to p elements that are direct children of the footer element */
