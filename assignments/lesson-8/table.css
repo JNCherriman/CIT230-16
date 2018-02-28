@@ -2,7 +2,7 @@
 
 
 table {
-    box-shadow: 5px 5px 10px gray;
+    box-shadow: 6px 6px 10px #628ca6;
     align-self: center;
     margin: 40px auto;
 }
@@ -24,7 +24,6 @@ thead, tfoot {
 
 thead {
     font-size: 1.5em;
-
 }
 
 tfoot {
@@ -52,5 +51,3 @@ table tbody tr:nth-child(5) td:nth-of-type(3) {
 table tbody tr:nth-child(6) td:nth-child(1) {
     font-style: italic;
 }
-
-
