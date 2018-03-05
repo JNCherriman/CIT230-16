@@ -169,8 +169,6 @@ main figure.RWD figcaption {
 }
 
 
-article {}
-
 article figure.town-article img {
     /* This structure refers to img elements that are the posterity of paragraph elements within artcle elements */
     width: 100%;

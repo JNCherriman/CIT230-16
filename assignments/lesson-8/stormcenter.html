@@ -4,9 +4,9 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Franklin - Local Weather | Chicken Little</title>
+    <title>Storm Center - Local Weather | Chicken Little</title>
     <meta name="author" content="Jeremy Cherriman">
-    <meta name="description" content="Local weather history, forecasts, and meaningful meteorological context for the city of Franklin and surrounding Tri-city area.">
+    <meta name="description" content="Report a storm or unusual weather event in their travel area.">
     <!-- external style references in the proper cascading order -->
     <link href="https://fonts.googleapis.com/css?family=Merriweather+Sans|Open+Sans" rel="stylesheet">
     <!-- Google API font reference -->
@@ -38,22 +38,22 @@
         <button onclick="toggleNavMenu()">&#9776;</button>
         <ul id="primaryNav" class="hide">
             <li><a href="#">Home</a></li>
-            <li class="active"><a href="#">Franklin</a></li>
+            <li><a href="franklin-8.html">Franklin</a></li>
             <li><a href="#">Greenville</a></li>
             <li><a href="#">Springfield</a></li>
-            <li><a href="#">Storm Center</a></li>
-            <li><a href="gallery-7.html">Gallery</a></li>
+            <li class="active"><a href="#">Storm Center</a></li>
+            <li><a href="gallery-8.html">Gallery</a></li>
         </ul>
     </nav>
 
     <main>
-        <form action="/assignments/lesson-8/thanks.html" method="post" enctype="multipart/form-data" name="storm" id="newStorm">
+        <form action="/assignments/lesson-8/thanks.html" method="post" enctype="multipart/form-data" name="storm" id="newstorm">
             <fieldset>
                 <legend><span>Personal Information</span></legend>
                 <label><span>Full Name:</span><input name="fullname" type="text" placeholder="Full Name" pattern="[a-zA-Z -._]{5,99}" autofocus required></label>
                 <label><span>Email:</span><input name="email" type="email" placeholder="yourname@email.tld" required></label>
                 <label><span>Phone Number:</span><input name="phone" type="tel" placeholder="555-657-8309" pattern="[0-9]{10,20}" required></label>
-                <label><span>Zip Code:</span><input name="zip" type="number" required></label>
+                <label><span>Zip Code:</span><input name="zip" type="number" placeholder="12345" required></label>
             </fieldset>
             <fieldset>
                 <legend><span>Storm Information</span></legend>
@@ -79,7 +79,7 @@
                     <option value="Greenville">Greenville</option>
                     <option value="Springfield">Springfield</option>
                 </select>
-                <label><span>User "in-danger" Level</span></label>
+                <label><span>User "in-danger" Level:</span></label>
                 <input type="radio" name="danger" value="yes"> Yes <br>
                 <input type="radio" name="danger" value="maybe"> Maybe <br>
                 <input type="radio" name="danger" value="no"> No <br>
@@ -105,7 +105,7 @@
             Contact: <a href="mailto:email@chickenlittleweather.org">Email</a>
         </aside>
         <p class="footer-bar">
-            &copy;2018 All Rights Reserved | Franklin - Local Weather |
+            &copy;2018 All Rights Reserved | Storm Center - Local Weather |
             <span id="currentdate"><script src="scripts/currentdate.js"></script></span>
         </p>
     </footer>

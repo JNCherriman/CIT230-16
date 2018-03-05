@@ -62,6 +62,37 @@
         margin: 0 20px;
     }
 
+    .forecast {
+        margin-bottom: 40px;
+    }
+
+    table {
+        box-shadow: 6px 6px 10px gray;
+        align-self: center;
+    }
+
+    table, thead, tbody, tfoot, th, td {
+        border: 1px solid black;
+        border-collapse: collapse;
+    }
+
+    td, th {
+        padding: 5px;
+    }
+
+    thead, tfoot {
+        background-color: #87bdd8;
+        color: white;
+    }
+
+    table tbody td:nth-child(even) {
+        background-color: #daebe8;
+    }
+
+    table tbody td:nth-child(odd) {
+        background-color: #cfe0e8;
+    }
+
     .container {
         grid-template-columns: 1fr 1fr;
     }

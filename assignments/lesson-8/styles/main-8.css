@@ -112,7 +112,11 @@ main h2 {
 }
 
 section {
-    padding-right: 15px;
+    padding: 0 15px 15px 5px
+}
+
+section p {
+    padding-bottom: 8px;
 }
 
 div.forecast {
@@ -138,6 +142,15 @@ section img {
 
 .container figure img {
     padding: 15px 0px;
+}
+
+h3 {
+    padding-left: 10px;
+}
+
+.article {
+    background-color: #cfe0e8;
+    border-radius: .9em;
 }
 
 .gallery {
@@ -168,8 +181,60 @@ main figure.RWD figcaption {
     font-size: .75rem;
 }
 
+form {
+    padding-bottom: 40px;
+}
 
-article {}
+form#newstorm {
+    margin: 1em 3%;
+}
+
+fieldset {
+    background-color: #cfe0e8;
+    margin: 1.5em 0;
+    border-radius: .2em;
+}
+
+legend {
+    margin-left: 2%;
+    padding: .5em;
+    background-color: #b7d7e8;
+    border: black solid 1px;
+    border-radius: .2em;
+}
+
+label {
+    display: block;
+    margin: .5em;
+    }
+
+label span {
+    display: block;
+    padding-top: .9em;
+    padding-bottom: .2em;
+}
+
+input:focus:invalid {
+    background-position: 4px -111px;
+}
+
+input:required:valid {
+    background-color: #fff;
+    background-position: 4px -111px;
+}
+
+input.submitBtn {
+    -webkit-appearance none;
+    color: #fff;
+    border: solid 1px #111;
+    border-radius: 8px;
+    width: 40%;
+    margin: .5em 0;
+    padding: .5em;
+    background: #87bdd8;
+    box-shadow: 4px 4px 10px #666;
+}
+
 
 article figure.town-article img {
     /* This structure refers to img elements that are the posterity of paragraph elements within artcle elements */
