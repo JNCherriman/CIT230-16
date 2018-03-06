@@ -29,21 +29,20 @@ header {
     text-align: center;
     display: flex;
     flex-direction: column;
-}
 
-header .headertextbox {
-    flex: 1;
-    margin-top: 0;
-}
-
-header h1 {
-    color: #000;
 }
 
 header img {
     max-width: 150px;
     height: auto;
-    margin-bottom: 0;
+}
+
+header .headertextbox {
+    flex: 1;
+}
+
+header h1 {
+    color: #000;
 }
 
 header .subheading {
@@ -230,6 +229,7 @@ input.submitBtn {
     border: solid 1px #111;
     border-radius: 8px;
     width: 60%;
+    max-width: 300px;
     margin: .5em 0;
     padding: .5em;
     background: #87bdd8;
