@@ -249,9 +249,22 @@ footer {
     background-color: #cfe0e8;
     padding: inherit;
     margin-top: 30px;
+    display: flex;
+    flex-flow: column;
 }
 
-footer aside {}
+.footerlinks {
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    padding: 0;
+}
+
+.footerlinks section {
+    flex: 1 1 auto;
+    margin: 0;
+    padding: 0;
+}
 
 footer > p {}
 
