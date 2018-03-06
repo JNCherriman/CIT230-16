@@ -17,6 +17,10 @@
         grid-template-columns: 1fr 1fr 1fr;
     }
 
+    .gallery figure img:hover {
+        box-shadow: 5px 5px 10px gray;
+    }
+
     article p.town-article img {
         width: 50%;
     }

@@ -1,9 +1,5 @@
 @media only screen and (min-width: 38.9em) {
     /* Only CSS rules that need to be changed to meet the layout needs from small to medium go in here */
-    body {
-        font-size: 1em;
-        width: 80%;
-    }
 
     header,
     nav,
@@ -21,20 +17,22 @@
         display: none;
     }
     /* hamburger button does not need to be shown */
+
     nav ul.hide {
-        display: block;
+        display: flex;
     }
 
     nav ul {
         border: none;
         margin-left: 2%;
     }
+
     nav ul li {
-        display: inline-block;
         border-bottom: none;
     }
 
     nav ul li a {
+        display: block;
         padding: .8rem 1rem;
         border: none;
     }
@@ -98,6 +96,7 @@
 
     .gallery {
         grid-template-columns: 1fr 1fr;
+        grid-column-gap: 5%
     }
 
     div.forecast {
