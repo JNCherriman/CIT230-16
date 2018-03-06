@@ -28,10 +28,12 @@ header {
     font-size: .8rem;
     text-align: center;
     display: flex;
+    flex-direction: column;
 }
 
 header .headertextbox {
     flex: 1;
+    margin-top: 0;
 }
 
 header h1 {
@@ -41,6 +43,7 @@ header h1 {
 header img {
     max-width: 150px;
     height: auto;
+    margin-bottom: 0;
 }
 
 header .subheading {
