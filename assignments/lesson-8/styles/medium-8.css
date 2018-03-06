@@ -2,8 +2,7 @@
     /* Only CSS rules that need to be changed to meet the layout needs from small to medium go in here */
     body {
         font-size: 1em;
-        ?8width: 80%;
-        */
+        width: 80%;
     }
 
     header,

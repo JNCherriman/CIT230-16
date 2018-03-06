@@ -224,11 +224,11 @@ input:required:valid {
 }
 
 input.submitBtn {
-    -webkit-appearance none;
+    -webkit-appearance: none;
     color: #fff;
     border: solid 1px #111;
     border-radius: 8px;
-    width: 40%;
+    width: 60%;
     margin: .5em 0;
     padding: .5em;
     background: #87bdd8;
