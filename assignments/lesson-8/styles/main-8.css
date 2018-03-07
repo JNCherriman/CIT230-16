@@ -116,11 +116,23 @@ main h2 {
 }
 
 section {
-    padding: 0 15px 15px 5px
+    padding: 0 15px 15px 5px;
+}
+
+section.summary, section.splashpicture {
+    border-style: solid;
+    border-width: 2px;
+    border-radius: .9em;
+    border-color: #cfe0e8;
+}
+
+main section p {
+    margin: 0 20px;
+    padding-bottom: 8px;
 }
 
 section p {
-    padding-bottom: 8px;
+    padding-top: 10px;
 }
 
 div.forecast {
@@ -141,11 +153,11 @@ section img {
 }
 
 .container div {
-    padding-bottom: 20px;
+    margin-bottom: 20px;
 }
 
 .container figure img {
-    padding: 15px 0px;
+    margin: 0 0 15px 0;
 }
 
 h3 {
@@ -251,6 +263,14 @@ footer {
     margin-top: 30px;
     display: flex;
     flex-flow: column;
+}
+
+footer aside section a {
+    text-decoration: none;
+    color: black;
+    background-color: transparent;
+    text-shadow: 0 0 2px;
+    font-size: 1.3rem;
 }
 
 .footerlinks {

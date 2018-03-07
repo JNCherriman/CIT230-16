@@ -48,16 +48,17 @@
         flex-flow: column;
     }
 
+    .current:hover {
+        background-color: #daebe8;
+        border-radius: .9em;
+    }
+
     .box {
         flex: 0 0 50%;
     }
 
     main section {
         padding-bottom: 30px;
-    }
-
-    main section p {
-        margin: 0 20px;
     }
 
     .forecast {
