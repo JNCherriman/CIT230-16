@@ -1,0 +1,112 @@
+@media only screen and (min-width: 38.9em) {
+    /* Only CSS rules that need to be changed to meet the layout needs from small to medium go in here */
+
+    header,
+    nav,
+    main,
+    footer {
+        max-width: 1500px;
+        margin: auto;
+    }
+
+    header {
+        font-size: 1.3rem;
+        flex-direction: row;
+    }
+
+    nav button {
+        display: none;
+    }
+    /* hamburger button does not need to be shown */
+
+    nav ul.hide {
+        display: flex;
+    }
+
+    nav ul {
+        border: none;
+        }
+
+    nav ul li {
+        border-bottom: none;
+        flex: 1 1 auto;
+    }
+
+    nav ul li a {
+        display: block;
+        padding: .8rem 1rem;
+        border: none;
+    }
+
+    main h2 {
+        font-size: 2em;
+        flex: none;
+    }
+
+    main {
+        display: flex;
+        flex-flow: column;
+    }
+
+    .current:hover {
+        background-color: #daebe8;
+        border-radius: .9em;
+    }
+
+    .box {
+        flex: 0 0 50%;
+    }
+
+    main section {
+        padding-bottom: 30px;
+    }
+
+    .forecast {
+        margin-bottom: 40px;
+    }
+
+    table {
+        box-shadow: 6px 6px 10px gray;
+        align-self: center;
+    }
+
+    table, thead, tbody, tfoot, th, td {
+        border: 1px solid black;
+        border-collapse: collapse;
+    }
+
+    td, th {
+        padding: 5px;
+    }
+
+    thead, tfoot {
+        background-color: #87bdd8;
+        color: white;
+    }
+
+    table tbody td:nth-child(even) {
+        background-color: #daebe8;
+    }
+
+    table tbody td:nth-child(odd) {
+        background-color: #cfe0e8;
+    }
+
+    .container {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .gallery {
+        grid-template-columns: 1fr 1fr;
+        grid-column-gap: 5%
+    }
+
+    div.forecast {
+        display: block;
+    }
+    /* show the 10-day forecast with the medium view and up */
+    article p.town-article img {
+        width: 62.666%;
+    }
+    /* responsive images */
+}

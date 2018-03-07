@@ -1,0 +1,293 @@
+/* This main css file contains the default rules and is geared toward the small/phone view */
+
+* {
+    box-sizing: border-box;
+}
+
+/* This wildcard applies to all elements ensuring a box layout model */
+
+body {
+    font-size: 1em;
+    /* Declare the base font-family - from google font api or other */
+    font-family: 'Open Sans', sans-serif;
+    padding: 10px;
+}
+
+header,
+nav,
+main,
+footer {
+    /* the comma means apply the following CSS declarations to all of the listed elements */
+    /* Declare the maximum width and other main element rules to limit the stretch on wide views */
+    max-width: 800px;
+}
+
+header {
+    background-color: #87bdd8;
+    font-family: arial;
+    font-size: .8rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+
+}
+
+header img {
+    max-width: 150px;
+    height: auto;
+}
+
+header .headertextbox {
+    flex: 1;
+}
+
+header h1 {
+    color: #000;
+}
+
+header .subheading {
+    padding-bottom: 10px;
+}
+
+nav {
+    font-size: .7em;
+    background-color: #b7d7e8;
+}
+
+nav button {
+    margin: .2rem 2%;
+    border: none;
+    background-color: transparent;
+    font-size: 1.6rem;
+    color: #555;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    border: 1px solid #555;
+}
+
+nav ul li {
+    text-align: center;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+    font-size: 1.2em;
+    font-weight: 600;
+}
+
+nav ul li:last-child {
+    border-bottom: none;
+}
+
+nav ul li a {
+    display: block;
+    color: #000;
+    padding: .8rem 2%;
+    text-decoration: none;
+}
+
+nav ul li.active a {
+    background-color: rgba(0, 0, 0, 0.2);
+    color: white;
+}
+
+/* Change the link color on hover */
+
+nav ul li a:hover {
+    background-color: rgba(0, 0, 0, 0.4);
+    color: white;
+}
+
+nav ul.hide {
+    display: none;
+}
+
+main {
+    font-family: 'Merriweather Sans', sans-serif;
+}
+
+main h2 {
+    font-family: arial;
+    text-align: center;
+    color: #000;
+    font-size: 25px;
+}
+
+section {
+    padding: 0 15px 15px 5px;
+}
+
+section.summary, section.splashpicture {
+    border-style: solid;
+    border-width: 2px;
+    border-radius: .9em;
+    border-color: #cfe0e8;
+}
+
+main section p {
+    margin: 0 20px;
+    padding-bottom: 8px;
+}
+
+section p {
+    padding-top: 10px;
+}
+
+div.forecast {
+    display: none;
+    padding: 1rem;
+}
+
+/* Hid the 10-day forecast with the mobile view */
+
+section img {
+    width: 100%;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 10px;
+}
+
+.container div {
+    margin-bottom: 20px;
+}
+
+.container figure img {
+    margin: 0 0 15px 0;
+}
+
+h3 {
+    padding-left: 10px;
+}
+
+.article {
+    background-color: #cfe0e8;
+    border-radius: .9em;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 10px;
+}
+
+.gallery figure {
+    padding-bottom: 40px;
+}
+
+.gallery figure figcaption {
+    padding-top: 10px;
+}
+
+main figure {
+    margin: 0 0 .2rem 2%;
+    width: 96%;
+}
+
+main figure.RWD figcaption {
+    text-align: center;
+    font-size: .75rem;
+}
+
+form {
+    padding-bottom: 40px;
+}
+
+form#newstorm {
+    margin: 1em 3%;
+}
+
+fieldset {
+    background-color: #cfe0e8;
+    margin: 1.5em 0;
+    border-radius: .2em;
+}
+
+legend {
+    margin-left: 2%;
+    padding: .5em;
+    background-color: #b7d7e8;
+    border: black solid 1px;
+    border-radius: .2em;
+}
+
+label {
+    display: block;
+    margin: .5em;
+    }
+
+label span {
+    display: block;
+    padding-top: .9em;
+    padding-bottom: .2em;
+}
+
+input:focus:invalid {
+    background-position: 4px -111px;
+}
+
+input:required:valid {
+    background-color: #fff;
+    background-position: 4px -111px;
+}
+
+input.submitBtn {
+    -webkit-appearance: none;
+    color: #fff;
+    border: solid 1px #111;
+    border-radius: 8px;
+    width: 60%;
+    max-width: 300px;
+    margin: .5em 0;
+    padding: .5em;
+    background: #87bdd8;
+    box-shadow: 4px 4px 10px #666;
+}
+
+
+article figure.town-article img {
+    /* This structure refers to img elements that are the posterity of paragraph elements within artcle elements */
+    width: 100%;
+    /* fill the page in the small/phone view */
+    margin: 10px;
+    padding-left: 10px;
+}
+
+footer {
+    background-color: #cfe0e8;
+    padding: inherit;
+    margin-top: 30px;
+    display: flex;
+    flex-flow: column;
+}
+
+footer aside section a {
+    text-decoration: none;
+    color: black;
+    background-color: transparent;
+    text-shadow: 0 0 2px;
+    font-size: 1.3rem;
+}
+
+.footerlinks {
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    padding: 0;
+}
+
+.footerlinks section {
+    flex: 1 1 auto;
+    margin: 0;
+    padding: 0;
+}
+
+footer > p {}
+
+/* This structure refers to p elements that are direct children of the footer element */
+
+/* Other Class Selectors */
