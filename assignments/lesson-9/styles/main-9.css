@@ -35,14 +35,17 @@ header {
 header img {
     max-width: 150px;
     height: auto;
+    margin-bottom: 0;
 }
 
 header .headertextbox {
     flex: 1;
+    margin-top: 0;
 }
 
 header h1 {
     color: #000;
+    padding-top: 0;
 }
 
 header .subheading {
@@ -115,16 +118,30 @@ main h2 {
     font-size: 25px;
 }
 
+main h3 {
+    font-family: arial;
+    text-align: center;
+    color: #000;
+    font-size: 20px;
+}
+
 section {
     padding: 0 15px 15px 5px;
 }
 
-section.summary, section.splashpicture {
+section.bodyStandard {
     border-style: solid;
     border-width: 2px;
     border-radius: .9em;
     border-color: #cfe0e8;
+    margin-bottom: 30px;
 }
+
+section.article {
+    background-color: #cfe0e8;
+    border-radius: .9em;
+}
+
 
 main section p {
     margin: 0 20px;
@@ -162,11 +179,6 @@ section img {
 
 h3 {
     padding-left: 10px;
-}
-
-.article {
-    background-color: #cfe0e8;
-    border-radius: .9em;
 }
 
 .gallery {
