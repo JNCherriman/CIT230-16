@@ -273,6 +273,10 @@ footer aside section a {
     font-size: 1.3rem;
 }
 
+span.hidetext {
+    display: none;
+}
+
 .footerlinks {
     display: flex;
     flex-direction: row;
@@ -284,6 +288,11 @@ footer aside section a {
     flex: 1 1 auto;
     margin: 0;
     padding: 0;
+}
+
+.footerlinks section img {
+    height: 24px;
+    width: auto;
 }
 
 footer > p {}
