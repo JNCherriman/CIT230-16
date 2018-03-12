@@ -29,13 +29,18 @@ header {
     text-align: center;
     display: flex;
     flex-direction: column;
-
 }
 
 header img {
     max-width: 150px;
     height: auto;
     margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+header section.logowrapper {
+    margin-bottom: 0;
+    padding-bottom: 0;
 }
 
 header .headertextbox {
@@ -46,6 +51,7 @@ header .headertextbox {
 header h1 {
     color: #000;
     padding-top: 0;
+    margin-top: 0;
 }
 
 header .subheading {
@@ -129,6 +135,11 @@ section {
     padding: 0 15px 15px 5px;
 }
 
+section div p img {
+    width: 30px;
+    height: auto;
+}
+
 section.bodyStandard {
     border-style: solid;
     border-width: 2px;
@@ -140,8 +151,8 @@ section.bodyStandard {
 section.article {
     background-color: #cfe0e8;
     border-radius: .9em;
+    margin-bottom: 30px;
 }
-
 
 main section p {
     margin: 0 20px;
@@ -179,6 +190,14 @@ section img {
 
 h3 {
     padding-left: 10px;
+}
+
+.townDataList {
+    list-style-type: none;
+}
+
+.townDataList li {
+    padding-bottom: 10px;
 }
 
 .gallery {

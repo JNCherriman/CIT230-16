@@ -14,6 +14,10 @@
         flex-direction: row;
     }
 
+    header h1 {
+        margin-top: 30px;
+    }
+
     nav button {
         display: none;
     }

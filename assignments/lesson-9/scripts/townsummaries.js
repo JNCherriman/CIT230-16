@@ -12,6 +12,8 @@ request.onload = function() {
     var cities = jsondata['towns'];
 
     for (var i = 0; i < cities.length; i++) {
+        if (cities[i].name == 'Placerton')
+            i++;
         var mySection = document.createElement('section');
         mySection.setAttribute('class','bodyStandard');
         var myH3 = document.createElement('h3');
