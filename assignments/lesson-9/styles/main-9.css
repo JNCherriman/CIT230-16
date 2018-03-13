@@ -257,6 +257,37 @@ label span {
     padding-bottom: .2em;
 }
 
+input.textBox {
+    padding: 5px;
+}
+
+input.slider {
+    -webkit-appearance: none;
+    margin-left: 10px;
+    width: 80%;
+    height: 25px;
+    border-radius: .2em;
+    cursor: pointer;
+    background: white;
+    outline: none;
+    opacity: 0.7;
+    transition: opacity .2s;
+}
+
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    border-radius: .2em;
+    width: 25px;
+    height: 25px;
+    background: #87bdd8;
+    cursor: pointer;
+}
+
+.slider:hover {
+    opacity: 1;
+}
+
 input:focus:invalid {
     background-position: 4px -111px;
 }
@@ -266,15 +297,15 @@ input:required:valid {
     background-position: 4px -111px;
 }
 
-input.submitBtn {
+input.submitBtn, input.resetBtn {
     -webkit-appearance: none;
     color: #fff;
     border: solid 1px #111;
     border-radius: 8px;
     width: 60%;
     max-width: 300px;
-    margin: .5em 0;
-    padding: .5em;
+    margin: .5em 0 .8em 0;
+    padding: .5em 0;
     background: #87bdd8;
     box-shadow: 4px 4px 10px #666;
 }
@@ -318,12 +349,13 @@ span.hidetext {
 .footerlinks section {
     flex: 1 1 auto;
     margin: 0;
-    padding: 0;
+    padding: 0 20px 0 0;
 }
 
 .footerlinks section img {
     height: 24px;
     width: auto;
+    padding-right: 20px;
 }
 
 footer > p {}

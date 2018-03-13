@@ -65,6 +65,15 @@
         padding-bottom: 30px;
     }
 
+    main form {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        }
+
+    main form fieldset {
+        margin: 15px 15px 15px 0;
+    }
+
     .forecast {
         margin-bottom: 40px;
         align-self: center;

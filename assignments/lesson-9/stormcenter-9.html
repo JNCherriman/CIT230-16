@@ -49,15 +49,34 @@
     <main>
         <form action="thanks.html" method="get" enctype="multipart/form-data" name="storm" id="newstorm">
             <fieldset>
-                <legend><span>Personal Information</span></legend>
-                <label><span>Full Name:</span><input name="fullname" type="text" placeholder="Full Name" pattern="[a-zA-Z -._]{5,99}" autofocus required></label>
-                <label><span>Email:</span><input name="email" type="email" placeholder="yourname@email.tld" required></label>
-                <label><span>Phone Number:</span><input name="phone" type="tel" placeholder="555-657-8309" pattern="[0-9]{10,20}" required></label>
-                <label><span>Zip Code:</span><input name="zip" type="number" placeholder="12345" required></label>
+                <legend>
+                    <span>Personal Information</span>
+                </legend>
+                <label>
+                    <span>Full Name:</span>
+                    <input name="fullname" type="text" class="textBox" placeholder="Full Name" pattern="[a-zA-Z -._]{5,99}" autofocus required>
+                </label>
+                <label>
+                    <span>Email:</span>
+                    <input name="email" type="email" class="textBox" placeholder="yourname@email.tld" required>
+                </label>
+                <label>
+                    <span>Phone Number:</span>
+                    <input name="phone" type="tel" class="textBox" placeholder="555-657-8309" pattern="[0-9]{10,20}" required>
+                </label>
+                <label>
+                    <span>Zip Code:</span>
+                    <input name="zip" type="number" class="textBox" placeholder="12345" required>
+                </label>
             </fieldset>
             <fieldset>
-                <legend><span>Storm Information</span></legend>
-                <label><span>Storm Date:</span><input name="date" type="date"></label>
+                <legend>
+                    <span>Storm Information</span>
+                </legend>
+                <label>
+                    <span>Storm Date:</span>
+                    <input name="date" type="date" class="textBox">
+                </label>
                 <label>
                     <span>Storm Type:</span>
                     <input type="text" name="stormType" list="stormTypes">
@@ -69,8 +88,10 @@
                         <option value="Tornado"></option>
                     </datalist>
                 </label>
-                <label><span>Storm Severity: (1 to 10)</span></label>
-                <input type="range" value="1" min="1" max="10" step="1" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
+                <label>
+                    <span>Storm Severity: (1 to 10)</span>
+                </label>
+                <input type="range" class="slider" value="1" min="1" max="10" step="1" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
                     <span id="ratingvalue">1</span>
                 <label>
                     <span>Storm Region:</span>
@@ -81,23 +102,25 @@
                         <option value="Springfield">Springfield</option>
                     </select>
                 </label>
-                <label><span>User "in-danger" Level:</span></label>
+                <label><span>User "in-danger" Level:</span>
                     <input type="radio" name="danger" value="yes"> Yes <br>
                     <input type="radio" name="danger" value="maybe"> Maybe <br>
                     <input type="radio" name="danger" value="no"> No <br>
-
+                </label>
             </fieldset>
             <fieldset>
                 <legend><span>Other</span></legend>
                 <label>
                     <span>Additional Comments:</span>
-                    <textarea name="comments" rows="10" cols="30"></textarea>
+                    <textarea name="comments" class="textBox" rows="10" cols="30"></textarea>
                 </label>
             </fieldset>
+            <br>
 
             <input type="submit" value="Submit storm info" class="submitBtn">
+            <input type="reset" value="Reset form" class="resetBtn">
 
-            <input type="hidden" value="Conference Registration" name="subject">
+            <input type="hidden" value="Storm info submission" name="subject">
             <input name="redirect" type="hidden" value="thanks.html">
         </form>
 
@@ -107,24 +130,26 @@
         <aside class="footerlinks">
             <section class="flinks contact">
                 <span class="hidetext">Contact us:</span>
-                &nbsp;
                 <a href="mailto:email@chickenlittleweather.org">
-                    <img alt="Find us on Twitter!" src="../../icons/email-64.ico">
+                    <img alt="Send us email!" src="../../icons/email-64.ico">
                 </a>
-                &nbsp;
                 <a href="tel:555-867-5309">
-                    <img alt="Find us on Twitter!" src="../../icons/phone-46-64.ico">
+                    <img alt="Call us!" src="../../icons/phone-46-64.ico">
                 </a>
-                &nbsp;
+            </section>
+            <section class="flinks social">
+                <span class="hidetext">Share:</span>
                 <a href="https://instagram.com/">
-                    <img alt="Find us on Twitter!" src="../../icons/instagram-64.ico">
-                </a>&nbsp;
+                    <img alt="Find us on Instagram!" src="../../icons/instagram-64.ico">
+                </a>
+                <a href="https://pinterest.com">
+                    <img alt="Find us on Pinterest!" src="../../icons/pinterest-3-64.ico">
+                </a>
                 <a href="https://twitter.com/">
                     <img alt="Find us on Twitter!" src="../../icons/twitter-64.ico">
                 </a>
-                &nbsp;
                 <a href="https://facebook.com/">
-                    <img alt="Find us on Twitter!" src="../../icons/facebook-3-64.ico">
+                    <img alt="Find us on Facebook!" src="../../icons/facebook-3-64.ico">
                 </a>
             </section>
             <section class="flinks directions">
