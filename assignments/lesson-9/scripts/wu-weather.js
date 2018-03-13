@@ -1,6 +1,6 @@
 // var output = document.querySelector('#townsummaries');
 
-var requestURL = 'http://api.wunderground.com/api/62c9f84e4efe3237/conditions/q/MN/Franklin.json';
+var requestURL = 'https://api.wunderground.com/api/62c9f84e4efe3237/conditions/q/MN/Franklin.json';
 
 var weatherObject = new XMLHttpRequest();
 weatherObject.open('GET', requestURL, true);
