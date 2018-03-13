@@ -207,7 +207,12 @@ h3 {
 }
 
 .gallery figure {
-    padding-bottom: 40px;
+    padding: 10px 8px 20px 8px;
+    margin-bottom: 20px;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: .9em;
+    border-color: #cfe0e8;
 }
 
 .gallery figure figcaption {
@@ -235,7 +240,7 @@ form#newstorm {
 fieldset {
     background-color: #cfe0e8;
     margin: 1.5em 0;
-    border-radius: .2em;
+    border-radius: .9em;
 }
 
 legend {
@@ -263,7 +268,7 @@ input.textBox {
 
 input.slider {
     -webkit-appearance: none;
-    margin-left: 10px;
+    margin: 0 8px;
     width: 80%;
     height: 25px;
     border-radius: .2em;
@@ -286,6 +291,10 @@ input.slider {
 
 .slider:hover {
     opacity: 1;
+}
+
+main form fieldset span {
+    font-size: 1.8em;
 }
 
 input:focus:invalid {
