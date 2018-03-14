@@ -294,7 +294,7 @@ input.slider {
 }
 
 main form fieldset span {
-    font-size: 1.8em;
+    font-size: 1.6em;
 }
 
 input:focus:invalid {
@@ -363,6 +363,7 @@ span.hidetext {
 
 .footerlinks section img {
     height: 24px;
+    margin-top: 5px;
     width: auto;
     padding-right: 20px;
 }
