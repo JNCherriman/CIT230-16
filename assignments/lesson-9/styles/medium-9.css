@@ -65,6 +65,11 @@
         padding-bottom: 30px;
     }
 
+    section.bodyGenerated:hover {
+        background-color: #cfe0e8;
+        box-shadow: 5px 5px 10px gray;
+    }
+
     main form {
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -125,6 +130,10 @@
     /* show the 10-day forecast with the medium view and up */
     article p.town-article img {
         width: 62.666%;
+    }
+
+    .footerlinks {
+        flex-direction: row;
     }
     /* responsive images */
 }
