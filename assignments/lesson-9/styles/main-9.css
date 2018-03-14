@@ -215,6 +215,10 @@ h3 {
     border-color: #cfe0e8;
 }
 
+.gallery figure:hover {
+    background-color: #cfe0e8;
+}
+
 .gallery figure figcaption {
     padding-top: 10px;
 }
