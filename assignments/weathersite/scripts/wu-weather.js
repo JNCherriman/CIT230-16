@@ -1,4 +1,15 @@
-var requestURL = 'https://api.wunderground.com/api/62c9f84e4efe3237/conditions/q/MN/Franklin.json';
+console.log(window.location.href.indexOf("weathersite"));
+let url = document.location.href.split('/');
+// get the last portion of the href
+let page = url[url.length-1];
+console.log(page);
+
+if(page == 'franklin.html')
+    var requestURL = 'https://api.wunderground.com/api/62c9f84e4efe3237/conditions/q/MN/Franklin.json';
+else if (page == 'greenville.html')
+    var requestURL = 'https://api.wunderground.com/api/62c9f84e4efe3237/conditions/q/MI/Greenville.json';
+else if(page == 'springfield.html')
+    var requestURL = 'https://api.wunderground.com/api/62c9f84e4efe3237/conditions/q/IL/Springfield.json';
 
 var weatherObject = new XMLHttpRequest();
 weatherObject.open('GET', requestURL, true);
