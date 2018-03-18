@@ -27,6 +27,14 @@
         box-shadow: 5px 5px 10px gray;
     }
 
+    main form {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    main form fieldset span {
+        font-size: 1.2em;
+    }
+
     article p.town-article img {
         width: 50%;
     }
