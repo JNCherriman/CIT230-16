@@ -1,4 +1,3 @@
-console.log(window.location.href.indexOf("weathersite"));
 let url = document.location.href.split('/');
 // get the last portion of the href
 let page = url[url.length-1];
