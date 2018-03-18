@@ -15,7 +15,7 @@ request.onload = function() {
         if (cities[i].name == 'Placerton')
             i++;
         var myA = document.createElement('a');
-        myA.setAttribute('href',cities[i].name.toLowerCase() + '-9.html')
+        myA.setAttribute('href',cities[i].name.toLowerCase() + '.html')
         var mySection = document.createElement('section');
         mySection.setAttribute('class','bodyGenerated');
         var myH3 = document.createElement('h3');
