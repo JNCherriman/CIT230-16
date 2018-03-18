@@ -50,5 +50,3 @@ request.onload = function() {
     }
 }
 
-//var towninfo = request.response;
-// document.getElementById('townsummaries').innerHTML = output;
