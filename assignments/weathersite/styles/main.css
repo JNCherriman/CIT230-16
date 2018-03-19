@@ -150,6 +150,7 @@ section.bodyStandard, section.bodyGenerated {
 
 section.bodyGenerated {
     display: flex;
+    justify-content: space-between;
 }
 
 main div article a {
