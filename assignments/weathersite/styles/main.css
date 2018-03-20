@@ -61,6 +61,7 @@ header .subheading {
 nav {
     font-size: .7em;
     background-color: #b7d7e8;
+
 }
 
 nav button {
@@ -204,6 +205,13 @@ h3 {
     padding-left: 10px;
 }
 
+.current {
+    border-style: solid;
+    border-width: 2px;
+    border-radius: .9em;
+    border-color: #fff;
+}
+
 .townDataList {
     list-style-type: none;
 }
@@ -228,7 +236,8 @@ h3 {
 }
 
 .gallery figure:hover {
-    background-color: #cfe0e8;
+    background-color: #F8F8F8;
+    border-color: #cf1717;
 }
 
 .gallery figure figcaption {
@@ -349,6 +358,10 @@ input.slider {
 
 main form fieldset span {
     font-size: 1.6em;
+}
+
+input:focus {
+    /* border-color: #cf1717; */
 }
 
 input:focus:invalid {

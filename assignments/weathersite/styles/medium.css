@@ -53,8 +53,10 @@
     }
 
     .current:hover {
-        background-color: #daebe8;
-        border-radius: .9em;
+        /* background-color: #daebe8; */
+        background-color: #F8F8F8;
+        box-shadow: 5px 5px 10px gray;
+        border-color: #cf1717;
     }
 
     .box {
@@ -66,7 +68,9 @@
     }
 
     section.bodyGenerated:hover {
-        background-color: #cfe0e8;
+        /* background-color: #cfe0e8; */
+        background-color: #F8F8F8;
+        border-color: #cf1717;
         box-shadow: 5px 5px 10px gray;
     }
 
@@ -99,8 +103,9 @@
     }
 
     thead, tfoot {
+        /* background-color: #87bdd8; */
         background-color: #87bdd8;
-        color: white;
+        color: #fff;
     }
 
     table tbody td:nth-child(even) {
