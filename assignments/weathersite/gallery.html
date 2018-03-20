@@ -136,24 +136,10 @@
         </p>
     </footer>
 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="scripts/hamburger.js"></script>
     <script src="scripts/imgpop.js"></script>
-    <script>
-        (function () {
-            "use strict";
 
-            (".gallery img").click(function () {
-                var $src = (this).attr("src");
-                (".show").fadeIn();
-                (".img-show img").attr("src", $src);
-            });
-
-            ("span, .overlay").click(function () {
-                (".show").fadeOut();
-            });
-
-        });
-    </script>
 
 </body>
 </html>
