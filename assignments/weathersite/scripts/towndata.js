@@ -24,8 +24,8 @@ request.onload = function() {
 
             myLi1.textContent = 'Town Motto: ' + cities[i].motto;
             myLi2.textContent = 'Year Founded: ' + cities[i].yearFounded;
-            myLi3.textContent = 'Population: ' + cities[i].currentPopulation;
-            myLi4.textContent = 'Annual Rainfall: ' + cities[i].averageRainfall;
+            myLi3.textContent = 'Population: ' + cities[i].currentPopulation.toLocaleString('en');
+            myLi4.textContent = 'Annual Rainfall: ' + cities[i].averageRainfall + ' inches';
             myLi5.textContent = 'Annual Events: ';
 
             myList.appendChild(myLi1);

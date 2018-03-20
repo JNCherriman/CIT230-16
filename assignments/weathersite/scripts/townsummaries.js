@@ -32,8 +32,8 @@ request.onload = function() {
         myH3.textContent = cities[i].name;
         myPara1.textContent = 'Town Motto: ' + cities[i].motto;
         myPara2.textContent = 'Year Founded: ' + cities[i].yearFounded;
-        myPara3.textContent = 'Population: ' + cities[i].currentPopulation;
-        myPara4.textContent = 'Annual Rainfall: ' + cities[i].averageRainfall;
+        myPara3.textContent = 'Population: ' + cities[i].currentPopulation.toLocaleString('en');
+        myPara4.textContent = 'Annual Rainfall: ' + cities[i].averageRainfall + ' inches';
         myImg1.setAttribute('src','../../images/' + cities[i].name.toLowerCase() +'hmpg.jpg');
         myImg1.setAttribute('alt','Come vist' + cities[i].name);
 
