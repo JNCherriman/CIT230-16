@@ -1,9 +1,9 @@
 $(function () {
     "use strict";
 
-    $(".gallery figure img").click(function () {
+    $(".popup").click(function () {
         var $src = $(this).attr("src");
-        $(".show").fadeIn();
+        $(".show").fadeIn(500);
         $(".img-show img").attr("src", $src);
     });
 

@@ -74,11 +74,19 @@
                     <figure class="currentview">
                         <p>Our current view:</p>
                         <img alt="The current view from our window." sizes="90vw"
+                             class="popup"
                              srcset="images/franklin-px50.jpg 560w,
                                      images/franklin-px75.jpg 900w,
                                      images/franklin-px100.jpg 1200w"
-                             src="images/Franklin-800px.jpg">
+                             src="../../../../images/franklin-800px.jpg">
                     </figure>
+                    <div class="show">
+                        <div class="overlay"></div>
+                        <div class="img-show">
+                            <span>X</span>
+                            <img src="">
+                        </div>
+                    </div>
                 </div>
                 <p>Precipitation Today: <span id="precipAmt">0 in.</span></p>
                 <p>Wind Speed: <span id="windSpeed">5</span> mph <span id="windDir">SW</span></p>
@@ -91,7 +99,7 @@
                          srcset="images/franklin-px50.jpg 560w,
                                  images/franklin-px75.jpg 900w,
                                  images/franklin-px100.jpg 1200w"
-                         src="images/Franklin-800px.jpg">
+                         src="../../images/franklin-800px.jpg">
                     <figcaption>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur consequat eget turpis non interdum. Etiam porttitor eleifend sapien, lacinia maximus leo. Etiam in mi et nisl tempor dapibus vel non risus. Morbi eu erat ac sapien sollicitudin condimentum. Mauris malesuada urna vel dolor vulputate, nec aliquet erat tempus. Donec bibendum metus id augue maximus rhoncus. Curabitur fringilla vestibulum sapien finibus viverra. Donec vitae tempus augue.</figcaption>
                 </figure>
             </section>
@@ -105,7 +113,7 @@
                     <img srcset="images/franklin-px50.jpg 560w,
                                  images/franklin-px75.jpg 900w,
                                  images/franklin-px100.jpg 1200w"
-                         src="images/Franklin-800px.jpg" sizes="90vw">
+                         src="../../images/franklin-800px.jpg" sizes="90vw">
                     <figcaption>A beautiful day in the neighborhood (Franklin area)</figcaption>
                 </figure>
             </section>
@@ -191,7 +199,9 @@
         </p>
     </footer>
 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="scripts/hamburger.js"></script>
+    <script src="scripts/imgpop.js"></script>
     <script src="scripts/wu-weather.js"></script>
     <script src="scripts/towndata.js"></script>
 
