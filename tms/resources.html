@@ -4,20 +4,20 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>The Mountain Spoke | Bicycle Services | Bozeman, MT </title>
+        <title>The Mountain Spoke | Resources Used | Bozeman, MT </title>
         <meta name="author" content="Jeremy Cherriman">
         <meta name="description" content="Bicycle tours, events, sales, and service for the Bozemen, MT area.">
         <!-- external style references in the proper cascading order -->
         <link href="https://fonts.googleapis.com/css?family=Fugaz+One" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Cabin" rel="stylesheet">
         <!-- Google API font reference -->
-        <link href="../../styles/normalize.css" rel="stylesheet">
+        <link href="../styles/normalize.css" rel="stylesheet">
         <!-- normalize useragent/browser defaults -->
-        <link href="../styles/main.css" rel="stylesheet">
+        <link href="styles/main.css" rel="stylesheet">
         <!-- default styles - small/phone views -->
-        <link href="../styles/medium.css" rel="stylesheet">
+        <link href="styles/medium.css" rel="stylesheet">
         <!-- medium/tablet views -->
-        <link href="../styles/large.css" rel="stylesheet">
+        <link href="styles/large.css" rel="stylesheet">
         <!-- large/wide/desktop views -->
 
         <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
@@ -35,8 +35,8 @@
         <header>
 
             <div class="logowrapper">
-                <a href="../">
-                    <img src="../images/full_logo.png" alt="The site logo">
+                <a href="index.html">
+                    <img src="images/full_logo.png" alt="The site logo">
                 </a>
             </div>
 
@@ -49,12 +49,12 @@
             <nav>
                 <button onclick="toggleNavMenu()">&#9776;</button>
                 <ul id="primaryNav" class="hide">
-                    <li><a href="../">Home</a></li>
-                    <li><a href="../tours/">Adventure Tours</a></li>
-                    <li><a href="../events/">Events</a></li>
-                    <li><a href="../sales/">Bikes</a></li>
-                    <li class="active"><a href="#">Services</a></li>
-                    <li><a href="../contact/">Contact Us</a></li>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="tours">Adventure Tours</a></li>
+                    <li><a href="events/">Events</a></li>
+                    <li><a href="sales/">Bikes</a></li>
+                    <li><a href="services/">Services</a></li>
+                    <li><a href="contact/">Contact Us</a></li>
                 </ul>
             </nav>
 
@@ -62,11 +62,16 @@
 
         <main>
 
-            <h2>Let us keep you Rolling!</h2>
+            <h2>References</h2>
             <div class="mainContainer">
                 <section class="bodyStandard">
-                    <!-- A simple service page listing the repair services offered by the company using a data table format. -->
-                    <table id="servicesoffered"></table>
+                    <ul>
+                        <li>Ideas for Contact page were pulled from: <a href="https://tonysbicycleshop.com/contact-us">Tony's Bicycle Shop</a></li>
+                        <li>Content for Events page was pulled from: <a href="https://www.adventurecycling.org/guided-tours/archived-tours/2014-tours/2014-cycle-divide-montana/">Adventure Cycling Association</a></li>
+                        <li>Content for Tours page was pulled from: <a href="http://www.outsidebozeman.com/places/cities-towns/bozeman/town-two-wheels">Outside Bozeman | online</a></li>
+                        <li>Content for Sales and Services pages was pulled from: <a href="https://www.bikelinestores.com/">Bike Line</a></li>
+                        <li>Cool Shop in Bozeman for general inspiration: <a href="https://www.owenhousecycling.com">Owenhouse Cycling</a></li>
+                    </ul>
                 </section>
             </div>
 
@@ -76,19 +81,15 @@
 
             <div class="footerlinks"></div>
             <p class="footer-bar">
-                &copy;2018 All Rights Reserved | Services - The Mountain Spoke |
-                <span id="currentdate"><script src="../scripts/currentdate.js"></script></span>
+                &copy;2018 All Rights Reserved | References - The Mountain Spoke |
+                <span id="currentdate"><script src="scripts/currentdate.js"></script></span>
             </p>
 
         </footer>
 
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-        <script>
-            window.jQuery || document.write('<script src="" type="text/javascript"><\/script>')
-        </script>
-        <script src="../scripts/hamburger.js"></script>
-        <script src="../scripts/services.js"></script>
+        <script src="scripts/hamburger.js"></script>
 
     </body>
+
 
 </html>

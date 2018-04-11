@@ -1,0 +1,29 @@
+{
+    "services" : [
+        {
+            "name": "Precision Fitting",
+            "price": "75.00",
+            "description": "Measure & set: Saddle Position, Saddle Height, Saddle, Angle & Knee over Pedal Position, Handlebar Angle, Height, & lever Position."
+        },
+        {
+            "name": "Basic Bike Tune-up",
+            "price": "69.95",
+            "description": "Lubricate Drivetrain • Adjust Brakes • Tighten Cranks • Adjust Derailleurs • Tighten Seat • Adjust & Tighten Wheel Cones • Minor Wheel True • Inflate Tires • Wipe Down Frame • Check Tires for Wear"
+        },
+        {
+            "name": "Deluxe Bike Tune-up",
+            "price": "99.95",
+            "description": "Includes Basic Tune-up PLUS: Drivetrain Inspection & Cleaning • Clean & Lubricate Cables & Cable Housings • Check Dropout Alignment • True & Clean Wheels • Clean & Polish Frame"
+        },
+        {
+            "name": "Total Bike Overhaul",
+            "price": "159.95",
+            "description": "Includes Deluxe Tune-up PLUS: Remove, Clean & Repack Hubs, Bottom Brackets & Headset (sealed components excluded) • Complete Disassembly, Cleaning & Rebuild of the Shifting System • Complete Disassembly, Cleaning & Rebuild of the Braking System"
+        },
+        {
+            "name": "5-Year Service Policy",
+            "price": "79.95",
+            "description": "Unlimited tune-ups • Derailleur adjustments • Brake adjustments (disc brakes excluded) • Bearing repairs • Flat repairs • Minor wheel truing (on bike) • External all points lube • Tire inflation • Personal fitting (for handlebar & seat height) Visit our service department now to learn more and get this great deal. Note: This policy is for the original owner only and is non-transferable."
+        }
+    ]
+}

@@ -1,0 +1,13 @@
+/* This main css file contains the default rules and is geared toward the small/phone view */
+
+/* This wildcard applies to all elements ensuring a box layout model */
+* {
+    box-sizing: border-box;
+}
+
+
+/*   --** Unversal page Styling **--   */
+
+
+/*   --** Horizontal Slide for Sales page **--   */
+
