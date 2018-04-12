@@ -7,7 +7,225 @@
 
 
 /*   --** Unversal page Styling **--   */
+body {
+    font-size: 1em;
+    /* Declare the base font-family - from google font api or other */
+    font-family: 'Cabin', sans-serif;
+    padding: 10px;
+}
+
+header,
+nav,
+main,
+footer {
+    max-width: 800px /* still in small view */
+}
 
 
-/*   --** Horizontal Slide for Sales page **--   */
+/*   --** Unversal header Styling **--   */
+header {
+    font-size: 1.1rem;
+    text-align: center;
+}
+
+header img {
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.logoFull {
+    display: none;
+}
+
+header section.logowrapper {
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+header .headertextbox {
+    margin-top: 0;
+    padding-top: 0;
+}
+
+header h1 {
+    font-family: 'Fugaz One', cursive;
+    margin-top: 0;
+    padding-top: 0;
+}
+
+
+/*   --** Universal nav Styling **--   */
+nav {
+    font-size: .7em;
+    background-color: #bc5a45;
+}
+
+nav button {
+    margin: .2rem 2%;
+    border: none;
+    background-color: transparent;
+    font-size: 1.6rem;
+    color: #555;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    border: 1px solid #555;
+}
+
+nav ul li {
+    text-align: center;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+    font-size: 1.2em;
+    font-weight: 600;
+}
+
+nav ul li:last-child {
+    border-bottom: none;
+}
+
+nav ul li a {
+    display: block;
+    color: #fff;
+    padding: .8rem 2%;
+    text-decoration: none;
+}
+
+nav ul li.active a {
+    background-color: rgba(0, 0, 0, 0.2);
+    color: white;
+}
+
+/* Change the link color on hover */
+
+nav ul li a:hover {
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+nav ul.hide {
+    display: none;
+}
+
+
+/*   --** Universal Main Styling **--   */
+main h2 {
+    text-align: center;
+    color: #ES88B78;
+    font-size: 25px;
+}
+
+main h3 {
+    text-align: center;
+    color: #es8b78;
+    font-size: 20px;
+}
+
+section {
+    padding: 0 15px 15px 15px;
+    margin-top: 25px;
+}
+
+section.bodyStandard, section.bodyGenerated {
+    border-style: solid;
+    border-width: 2px;
+    border-radius: .9em;
+    border-color: #b2b2b2;
+    background-color: #f4e1d2;
+    margin-bottom: 30px;
+}
+
+section button {
+    -webkit-appearance: none;
+    color: #fff;
+    border: solid 1px #111;
+    border-radius: 8px;
+    width: 60%;
+    max-width: 300px;
+    margin: .5em 0 .8em 0;
+    padding: .5em 0;
+    background: #bc5a45;
+    box-shadow: 4px 4px 10px #666;
+}
+
+main figure {
+    margin: 0 0 .2rem 2%;
+    width: 96%;
+}
+
+section figure img {
+    width: 100%;
+}
+
+section figure img:hover {
+    box-shadow: 5px 5px grey;
+}
+
+
+/*   --** Universal Footer Styling **--   */
+footer {
+    background-color: #f18973;
+    color: white;
+    padding: inherit;
+    margin-top: 30px;
+}
+
+footer p {
+    text-align: center;
+}
+
+
+/*   --** Image Pop-up Styling **--   */
+.show{
+    z-index: 999;
+    display: none;
+}
+.show .overlay{
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,.66);
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.show .img-show{
+    width: 600px;
+    height: 400px;
+    background: #FFF;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    overflow: hidden
+}
+.img-show span{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    z-index: 99;
+    cursor: pointer;
+    color: white;
+}
+.img-show img{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+
+/*   --** Embedded Map Styling **--   */
+#mapsmall {
+    width: 100%;
+}
+#mapmedium {
+    display: none;
+}
+#maplarge {
+    display: none;
+}
+
 

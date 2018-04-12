@@ -35,14 +35,17 @@
         <header>
 
             <div class="logowrapper">
-                <a href="../">
-                    <img src="../images/full_logo.png" alt="The site logo">
+                <a href="../index.html">
+                    <img src="../images/full_logo.png" alt="The site logo" class="logoFull">
+                </a>
+                <a href="../index.html">
+                    <img src="../images/icon.png" alt="The site logo" class="icon">
                 </a>
             </div>
 
             <div class="headertextbox">
                 <h1 class="hideSmall">The Mountain Spoke</h1>
-                <p class="subheading">It said "Ride the Big Sky" with us.</p>
+                <p class="subheading">It said "Ride the Big Sky with us."</p>
             </div>
 
             <!-- site navigation -->
@@ -81,7 +84,37 @@
                 </section>
                 <section class="bodyStandard">
                     <h3>Register here</h3>
-
+                    <form action="thanks.html" method="get" enctype="multipart/form-data" name="event" id="registration">
+                        <fieldset>
+                            <legend>
+                                <span>Personal information</span>
+                            </legend>
+                            <label>
+                                <span>Full Name:</span>
+                                <input name="fullname" type="text" class="textBox" placeholder="Full Name" pattern="[a-zA-Z -._]{5,99}" autofocus required>
+                            </label>
+                            <label>
+                                <span>Email:</span>
+                                <input name="email" type="email" class="textBox" placeholder="yourname@email.tld" required>
+                            </label>
+                            <label>
+                                <span>Phone Number:</span>
+                                <input name="phone" type="tel" class="textBox" placeholder="555-657-8309" pattern="[0-9]{10,20}" required>
+                            </label>
+                            <label>
+                                <span>Date of Birth:</span>
+                                <input name="dob" type="date" class="textBox" required>
+                            </label>
+                            <label>
+                                <span>Home State (or Country):</span>
+                                <input name="homestate" type="text" class="textBox" placeholder="Home State (or Country)" pattern="[a-zA-Z -._]{5,99}" required>
+                            </label>
+                            <label>
+                                <span>Special accommodations/comments:</span>
+                                <textarea name="comments" class="textBox" rows="10" cols="30"></textarea>
+                            </label>
+                        </fieldset>
+                    </form>
                 </section>
             </div>
 
