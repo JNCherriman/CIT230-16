@@ -4,11 +4,11 @@
     /*   --** Unversal page Styling **--   */
     body {
         font-size: 1.3em;
-        max-width: 1500;
+        max-width: 1200;
     }
 
     head, nav, main, footer {
-        max-width: 1200;
+        max-width: 1100;
     }
 
 
