@@ -7,7 +7,7 @@
     nav,
     main,
     footer {
-        max-width: 1500px;
+        max-width: 1200px;
         margin: auto;
     }
 
@@ -15,9 +15,9 @@
     /*   --** Unversal header Styling **--   */
     header {
         font-size: 1.3rem;
-        flex-direction: row;
+        display: flex;
+        flex-direction: column;
     }
-
 
     /*   --** Universal nav Styling **--   */
     nav button {
@@ -51,16 +51,22 @@
         flex: none;
     }
 
-    .container {
+    main div figure img {
+        max-width: 350px;
+        justify-content: center;
+    }
+
+    .mainContainer {
         display: flex;
-        flex-flow: column wrap;
+        flex-flow: row wrap;
         align-items: middle;
         justify-content:center;
     }
 
-    .container section {
+    .mainContainer section {
         flex-basis: auto;
-        /* max-width: 800px; */
+        max-width: 375px;
+        margin: 20px 25px 10px 25px;
     }
 
     section:nth-child(1) {flex-grow: 1; flex-shrink: 1;}

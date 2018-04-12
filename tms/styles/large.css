@@ -1,0 +1,35 @@
+@media only screen and (min-width: 64em) {
+    /* Only CSS rules that need to be changed to meet the layout needs from medium to large/wide go in here */
+
+    /*   --** Unversal page Styling **--   */
+    body {
+        font-size: 1.3em;
+        max-width: none;
+    }
+
+    head, nav, main, footer {
+        max-width: none;
+    }
+
+
+    /*   --** Universal nav Styling **--   */
+    nav ul li a {
+        padding: .6rem 1rem;
+    }
+
+
+    /*   --** Universal Main Styling **--   */
+    main div figure img {
+        max-width: 500px;
+    }
+
+    .mainContainer section {
+        max-width: 800px;
+    }
+
+}
+
+@media only screen and (min-width: 100em) {
+
+
+}

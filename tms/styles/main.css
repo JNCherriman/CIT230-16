@@ -12,13 +12,15 @@ body {
     /* Declare the base font-family - from google font api or other */
     font-family: 'Cabin', sans-serif;
     padding: 10px;
+    margin-left: 25px;
+    margin-right: 25px;
 }
 
 header,
 nav,
 main,
 footer {
-    max-width: 800px /* still in small view */
+    max-width: 600px; /* still in small view */
 }
 
 
