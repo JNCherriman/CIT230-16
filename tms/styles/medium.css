@@ -1,0 +1,89 @@
+@media only screen and (min-width: 38.9em) {
+    /* Only CSS rules that need to be changed to meet the layout needs from small to medium go in here */
+
+
+    /*   --** Unversal page Styling **--   */
+    header,
+    nav,
+    main,
+    footer {
+        max-width: 1500px;
+        margin: auto;
+    }
+
+
+    /*   --** Unversal header Styling **--   */
+    header {
+        font-size: 1.3rem;
+        flex-direction: row;
+    }
+
+
+    /*   --** Universal nav Styling **--   */
+    nav button {
+        display: none;
+    }
+    /* hamburger button does not need to be shown */
+
+    nav ul.hide {
+        display: flex;
+    }
+
+    nav ul {
+        border: none;
+    }
+
+    nav ul li {
+        border-bottom: none;
+        flex: 1 1 auto;
+    }
+
+    nav ul li a {
+        display: block;
+        padding: .8rem 1rem;
+        border: none;
+    }
+
+
+    /*   --** Universal Main Styling **--   */
+    main h2 {
+        font-size: 2em;
+        flex: none;
+    }
+
+    .container {
+        display: flex;
+        flex-flow: column wrap;
+        align-items: middle;
+        justify-content:center;
+    }
+
+    .container section {
+        flex-basis: auto;
+        /* max-width: 800px; */
+    }
+
+    section:nth-child(1) {flex-grow: 1; flex-shrink: 1;}
+    section:nth-child(2) {flex-grow: 1; flex-shrink: 1;}
+    section:nth-child(3) {flex-grow: 1; flex-shrink: 1;}
+    section:nth-child(4) {flex-grow: 1; flex-shrink: 1;}
+
+
+
+
+
+    /*   --** Universal Footer Styling **--   */
+
+
+    /*   --** Embedded Map Styling **--   */
+    #mapsmall {
+        display: none;
+    }
+    #mapmedium {
+        width: 100%;
+    }
+    #maplarge {
+        display: none;
+    }
+
+}
