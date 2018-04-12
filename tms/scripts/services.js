@@ -37,17 +37,17 @@ request.onload = function() {
 
     for (var i = 0; i < services.length; i++) {
         var myTR = document.createElement('tr');
-        var myTH1 = document.createElement('th');
-        var myTH2 = document.createElement('th');
-        var myTH3 = document.createElement('th');
+        var myTD1 = document.createElement('td');
+        var myTD2 = document.createElement('td');
+        var myTD3 = document.createElement('td');
 
-        myTH1.textContent = services[i].name;
-        myTH2.textContent = '$' + services[i].price;
-        myTH3.textContent = services[i].description;
+        myTD1.textContent = services[i].name;
+        myTD2.textContent = '$' + services[i].price;
+        myTD3.textContent = services[i].description;
 
-        myTR.appendChild(myTH1);
-        myTR.appendChild(myTH2);
-        myTR.appendChild(myTH3);
+        myTR.appendChild(myTD1);
+        myTR.appendChild(myTD2);
+        myTR.appendChild(myTD3);
 
         myTbody.appendChild(myTR);
     }
