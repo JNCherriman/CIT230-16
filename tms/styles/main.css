@@ -160,7 +160,7 @@ section figure img {
 }
 
 section figure img:hover {
-    box-shadow: 5px 5px grey;
+    box-shadow: 5px 5px 10px grey;
 }
 
 
@@ -227,5 +227,37 @@ footer p {
 #maplarge {
     display: none;
 }
+
+
+/*   --** Embedded Map Styling **--   */
+table {
+    box-shadow: 4px 4px 5px grey;
+    align-self: center;
+    margin-top: 15px;
+}
+
+table, thead, tbody, tfoot, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+td, th {
+    padding: 5px;
+}
+
+thead {
+    background-color: #993723;
+    color: white;
+}
+
+table tbody tr:nth-child(odd) {
+    background: rgba(0,0,0,.07);
+}
+
+table tbody tr:nth-child(1) {
+    background-color: #f18973;
+}
+
+
 
 
