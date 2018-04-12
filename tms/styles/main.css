@@ -128,7 +128,7 @@ section {
     margin-top: 25px;
 }
 
-section.bodyStandard, section.bodyGenerated {
+section.bodyStandard, section.card {
     border-style: solid;
     border-width: 2px;
     border-radius: .9em;
@@ -161,6 +161,10 @@ section figure img {
 
 section figure img:hover {
     box-shadow: 5px 5px 10px grey;
+}
+
+section figure figcaption {
+    padding-top: 10px;
 }
 
 
@@ -325,5 +329,22 @@ input.submitBtn {
 }
 
 
+/*   --** Shoplinks Styling **--   */
+#shoplinks {
+    text-align: center;
+
+}
+#shoplinks a {
+    text-decoration: none;
+    -webkit-appearance: none;
+    color: #fff;
+    border: solid 1px #111;
+    border-radius: 8px;
+    max-width: 300px;
+    margin: .5em .8em .8em .8em;
+    padding: .5em;
+    background: #bc5a45;
+    box-shadow: 4px 4px 10px #666;
+}
 
 
