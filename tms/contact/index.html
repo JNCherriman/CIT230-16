@@ -75,9 +75,6 @@
                     <div id="mapsmall"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2787.9316277611047!2d-111.09290618405305!3d45.67227287910392!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5345459ab72cb6df%3A0xbb98968f9648ea88!2s3950+Valley+Commons+Dr%2C+Bozeman%2C+MT+59718!5e0!3m2!1sen!2sus!4v1523492198344" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe></div>
                     <div id="mapmedium"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2787.9316277611047!2d-111.09290618405305!3d45.67227287910392!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5345459ab72cb6df%3A0xbb98968f9648ea88!2s3950+Valley+Commons+Dr%2C+Bozeman%2C+MT+59718!5e0!3m2!1sen!2sus!4v1523492198344" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe></div>
                     <div id="maplarge"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2787.9316277611047!2d-111.09290618405305!3d45.67227287910392!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5345459ab72cb6df%3A0xbb98968f9648ea88!2s3950+Valley+Commons+Dr%2C+Bozeman%2C+MT+59718!5e0!3m2!1sen!2sus!4v1523492198344" width="800" height="600" frameborder="0" style="border:0" allowfullscreen></iframe></div>
-                </section>
-
-                <section class="bodyStandard">
                     <!-- Small table for hours -->
                     <table id="hours">
                         <tbody>
@@ -114,6 +111,48 @@
                             </tr>
                         </tbody>
                     </table>
+                </section>
+
+                <section class="bodyStandard">
+
+                    <form action="thanks.html" method="get" enctype="multipart/form-data" name="event" id="registration">
+                        <fieldset>
+                            <legend>
+                                <span>Send us a Message</span>
+                            </legend>
+                            <label>
+                                <span>Your Name:</span>
+                                <input name="fullname" type="text" class="textBox" placeholder="Full Name" pattern="[a-zA-Z -._]{5,99}" autofocus required>
+                            </label>
+                            <label>
+                                <span>Email:</span>
+                                <input name="email" type="email" class="textBox" placeholder="yourname@email.tld" required>
+                            </label>
+                            <label>
+                                <span>Phone Number:</span>
+                                <input name="phone" type="tel" class="textBox" placeholder="555-657-8309" pattern="[0-9]{10,20}" required>
+                            </label>
+                            <label>
+                                <span>Preferred Method of Contact:</span>
+                                <input name="contactmethod" type="text" class="textBox" list="contactTypes" required>
+                                <datalist id="contactTypes">
+                                    <option value="Phone"></option>
+                                    <option value="Email"></option>
+                                    <option value="Text"></option>
+                                    <option value="Carrier Pigeon"></option>
+                                </datalist>
+                            </label>
+                            <label>
+                                <span>What's on Your Mind?:</span>
+                                <textarea name="comments" class="textBox" rows="10" cols="30"></textarea>
+                            </label>
+                        </fieldset>
+
+                        <input type="submit" value="Submit contact request" class="submitBtn">
+
+                        <input type="hidden" value="Event Registration" name="subject">
+                        <input name="redirect" type="hidden" value="thanks.html">
+                    </form>
                 </section>
 
             </div>
