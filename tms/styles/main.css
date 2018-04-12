@@ -229,7 +229,7 @@ footer p {
 }
 
 
-/*   --** Embedded Map Styling **--   */
+/*   --** Table Styling **--   */
 table {
     box-shadow: 4px 4px 5px grey;
     align-self: center;
@@ -256,6 +256,72 @@ table tbody tr:nth-child(odd) {
 
 table tbody tr:nth-child(1) {
     background-color: #f18973;
+}
+
+
+/*   --** Form Styling **--   */
+form {
+    padding-bottom: 40px;
+}
+
+form#newstorm {
+    margin: 1em 3%;
+}
+
+fieldset {
+    background-color: #f18973;
+    margin: 1.5em 0;
+    border-radius: .9em;
+}
+
+legend {
+    margin-left: 2%;
+    padding: .5em;
+    color: white;
+    background-color: #993723;
+    border: black solid 1px;
+    border-radius: .2em;
+}
+
+label {
+    display: block;
+    margin: .5em;
+}
+
+label span {
+    display: block;
+    padding-top: .9em;
+    padding-bottom: .2em;
+}
+
+input.textBox {
+    padding: 5px;
+}
+
+main form fieldset span {
+    font-size: 1.6em;
+}
+
+input:focus:invalid {
+    background-position: 4px -111px;
+}
+
+input:required:valid {
+    background-color: #fff;
+    background-position: 4px -111px;
+}
+
+input.submitBtn {
+    -webkit-appearance: none;
+    color: #fff;
+    border: solid 1px #111;
+    border-radius: 8px;
+    width: 60%;
+    max-width: 300px;
+    margin: .5em 0 .8em 0;
+    padding: .5em 0;
+    background: #bc5a45;
+    box-shadow: 4px 4px 10px #666;
 }
 
 
