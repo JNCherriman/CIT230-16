@@ -1,14 +1,14 @@
-@media only screen and (min-width: 64em) {
+@media only screen and (min-width: 80em) {
     /* Only CSS rules that need to be changed to meet the layout needs from medium to large/wide go in here */
 
     /*   --** Unversal page Styling **--   */
     body {
         font-size: 1.3em;
-        max-width: none;
+        max-width: 1500;
     }
 
     head, nav, main, footer {
-        max-width: none;
+        max-width: 1200;
     }
 
 
@@ -20,11 +20,25 @@
 
     /*   --** Universal Main Styling **--   */
     main div figure img {
-        max-width: 500px;
+        max-width: 650px;
     }
 
     .mainContainer section {
         max-width: 800px;
+    }
+
+    /*   --** Universal Footer Styling **--   */
+
+
+    /*   --** Embedded Map Styling **--   */
+    #mapsmall {
+        display: none;
+    }
+    #mapmedium {
+        display: none;
+    }
+    #maplarge {
+        width: 100%;
     }
 
 }
