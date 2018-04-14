@@ -19,7 +19,7 @@ main,
 footer {
     /* the comma means apply the following CSS declarations to all of the listed elements */
     /* Declare the maximum width and other main element rules to limit the stretch on wide views */
-    max-width: 800px;
+
 }
 
 header {
@@ -161,7 +161,7 @@ main div article a {
 
 section.bodyGenerated img{
     margin-top: 20px;
-    max-width: 200px;
+    /*max-width: 200px;*/
 }
 
 section.article {

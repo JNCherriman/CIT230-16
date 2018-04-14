@@ -7,8 +7,8 @@
     nav,
     main,
     footer {
-        max-width: 1500px;
-        margin: auto;
+        max-width: 1200px;
+        align-content: center;
     }
 
 
@@ -51,28 +51,32 @@
         flex: none;
     }
 
+    .card {
+        max-width: 500px;
+    }
+
     main div figure img {
-        max-width: 350px;
         justify-content: center;
     }
 
     .mainContainer {
-        display: flex;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        /* display: flex;
         flex-flow: row wrap;
         align-items: middle;
-        justify-content:center;
+        justify-content:center; */
     }
 
     .mainContainer section {
-        flex-basis: auto;
-        max-width: 350px;
+        /* flex-basis: auto; */
         margin: 20px 25px 10px 25px;
     }
 
-    section:nth-child(1) {flex-grow: 1; flex-shrink: 1;}
+    /* section:nth-child(1) {flex-grow: 1; flex-shrink: 1;}
     section:nth-child(2) {flex-grow: 1; flex-shrink: 1;}
     section:nth-child(3) {flex-grow: 1; flex-shrink: 1;}
-    section:nth-child(4) {flex-grow: 1; flex-shrink: 1;}
+    section:nth-child(4) {flex-grow: 1; flex-shrink: 1;} */
 
 
 
@@ -83,13 +87,13 @@
 
     /*   --** Embedded Map Styling **--   */
     #mapsmall {
-        display: none;
+
     }
     #mapmedium {
-        width: 100%;
+
     }
     #maplarge {
-        display: none;
+
     }
 
 }

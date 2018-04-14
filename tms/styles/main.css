@@ -3,6 +3,7 @@
 /* This wildcard applies to all elements ensuring a box layout model */
 * {
     box-sizing: border-box;
+
 }
 
 
@@ -14,6 +15,10 @@ body {
     padding: 10px;
     margin-left: 25px;
     margin-right: 25px;
+}
+
+a {
+    color: #6d1806;
 }
 
 header,
@@ -180,6 +185,13 @@ footer {
 
 footer p {
     text-align: center;
+}
+
+.slick-prev:before {
+    color: #6d1806 !important;
+}
+.slick-next:before {
+    color: #6d1806 !important;
 }
 
 

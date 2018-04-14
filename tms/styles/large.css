@@ -4,11 +4,10 @@
     /*   --** Unversal page Styling **--   */
     body {
         font-size: 1.3em;
-        max-width: 1200;
     }
 
     head, nav, main, footer {
-        max-width: 1100;
+        max-width: 1500px;
     }
 
 
@@ -20,15 +19,33 @@
 
     /*   --** Universal Main Styling **--   */
     main div figure img {
-        max-width: 650px;
     }
 
     .mainContainer section {
-        max-width: 800px;
     }
 
     /*   --** Universal Footer Styling **--   */
 
+    /*   --** Embedded Map Styling **--   */
+    #mapsmall {
+        display: none;
+    }
+    #mapmedium {
+        display: block;
+        width: 100%;
+    }
+    #maplarge {
+        display: none;
+    }
+
+}
+
+@media only screen and (min-width: 100em) {
+
+    /*   --** Unversal page Styling **--   */
+        head, nav, main, footer {
+        max-width: 2500px;
+    }
 
     /*   --** Embedded Map Styling **--   */
     #mapsmall {
@@ -38,12 +55,8 @@
         display: none;
     }
     #maplarge {
+        display: block;
         width: 100%;
     }
-
-}
-
-@media only screen and (min-width: 100em) {
-
 
 }
