@@ -48,11 +48,11 @@
     /*   --** Universal Main Styling **--   */
     main h2 {
         font-size: 2em;
-        flex: none;
     }
 
     .card {
-        max-width: 500px;
+        min-width: initial;
+        max-width: 600px;
     }
 
     main div figure img {
